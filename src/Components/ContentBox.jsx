@@ -60,7 +60,7 @@ const ContentBox = () => {
         // setCls("hidden");
         break;
       case 3:
-        setCount(4);
+        setCount(0);
         // setCls("hidden");
         break;
       case 4:
