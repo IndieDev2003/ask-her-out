@@ -79,12 +79,12 @@ const ContentBox = () => {
       {/* Buttons For Choice */}
       {
     count < 4 ? (
-      <div className="h-[500px] w-[350px] lg:w-4/5 bg-slate-300 flex items-center justify-center flex-col relative">
+      <div className="h-[500px] w-[350px] lg:w-4/5  flex items-center justify-center flex-col relative">
       {/* GIF Image */}
       <img
         src={pageText[count].imgUrl}
         alt="gif"
-        className="h-[270px] w-[270px] rounded-md mb-4"
+        className="h-[270px] w-[270px] rounded-md mb-4 shadow-[5px_5px_6px_#F06292]"
       />
 
       {/* Header Text (Primary)*/}
