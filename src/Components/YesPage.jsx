@@ -3,7 +3,7 @@ import { pageText } from "../assets/Text";
 const YesPage = () => {
   return (
     <>
-      <div className="h-[500px] w-[350px] lg:w-4/5 bg-slate-300 flex items-center justify-center flex-col relative">
+      <div className="h-[500px] w-[350px] lg:w-4/5  flex items-center justify-center flex-col relative">
         <img
           src={pageText[4].imgUrl}
           alt="gif"
